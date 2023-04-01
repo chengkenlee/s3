@@ -1,0 +1,17 @@
+
+ecs.s3:
+#  桶
+  bucket: bigdatatest
+#  路径
+  key: /s3-package/sams
+#  登陆账号
+  access.key: bigdata
+#  登陆密码
+  secret.key: xxxxxxxxxxxxxxx
+#  登陆url
+  endpoint: http://0xxxx:9020
+  acl: public-read
+  region: us-east-1
+  ssl: false
+  virtual-host: true
+
